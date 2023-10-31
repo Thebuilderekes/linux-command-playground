@@ -1,0 +1,180 @@
+Script started on 2023-10-31 13:48:34+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="122" LINES="31"]
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ c[Kls
+[?2004lapple.txt   electronic.txt  global.txt  lastname.txt  n.txt       q.txt        t.txt  x.txt
+baller.txt  firstname.txt   holdup.txt  m.txt         o.txt       r.txt        u.txt  y.txt
+crypto.txt  [0m[01;36mfold[0m            info.txt    [01;34mnewfolder[0m     [01;32mprogram.sh[0m  session.txt  v.txt  z.txt
+dollar.txt  fullname.txt    j.txt       notes.md      p.txt       s.txt        w.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ls | less
+[?2004l[?1049h[22;0;0t[?1h=apple.txt
+baller.txt
+crypto.txt
+dollar.txt
+electronic.txt
+firstname.txt
+fold
+fullname.txt
+global.txt
+holdup.txt
+info.txt
+j.txt
+lastname.txt
+m.txt
+newfolder
+notes.md
+n.txt
+o.txt
+program.sh
+p.txt
+q.txt
+r.txt
+session.txt
+s.txt
+t.txt
+u.txt
+v.txt
+w.txt
+x.txt
+y.txt
+:[K[K[?1l>[?1049l[23;0;0t[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ nano session.txt [K
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;55H(B[0;7m[ Reading... ](B[m[29;54H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2                                            session.txt                                                     [1;121H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ nano session.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;55H(B[0;7m[ Reading... ](B[m[29;54H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2                                            session.txt                                                     [1;121H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[29d[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ana[K[K[Knano nol[Ktes.md 
+[?2004l[?2004h[?1049h[22;0;0t[1;31r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[29;55H(B[0;7m[ Reading... ](B[m[29;53H(B[0;7m[ Read 42 lines ](B[m[H(B[0;7m  GNU nano 6.2                                             notes.md                                                       [1;121H(B[m[30d(B[0;7m^G(B[m Help[30;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[30;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[31d(B[0;7m^X(B[m Exit[31;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d(B[0;1m[33m# The Linux Command line Notes[4d[35m- [39m(B[mSymbolic links can be used for both files and folders but hard links can[5donly work for files[7d(B[0;1m[35m- [39m(B[mYou can create your alias to do combined commands in a sequence like[8dthis[9d(B[0;1m[36m```alias (B[0m[36m<alias name>(B[0;1m[36m ="(B[0m[36m<enter your combined command>(B[0;1m[36m"```[11d[39m(B[mbut you must first check if your alias name is not already a builtin shell[12dcommand  by using "type [36m<your alias>[39m(B[m"[14d(B[0;1m[35m- [39m(B[mYou can use (B[0;1m[36m`tldr`[39m(B[m command  to get a summarised effect of using (B[0;1m[36m`man`[39m(B[m command[16d(B[0;1m[35m- [39m(B[mYou can use 2> to output an error into another file[17de.g (B[0;1m[36m```ls -l /bi/(B[0m[36m<non-existent command that causes error>(B[0;1m[36m 2> output.txt```[19d[35m- [39m(B[mDO NOT TRY TO CAT 2 COMMANDS TOGETHER, COMPUTER MIGHT BREAK[21d(B[0;1m[35m- [39m(B[mwhen using pipe to (B[0;1m[36m`sort`[39m(B[m command for doing (B[0;1m[36m`ls`[39m(B[m of two files, the list is joined into one single[22dsorted  list[23de.g `(B[0;1m[36m`ls /pathtofile1.txt /pathtofile2.txt | sort`[39m(B[m`` will give one joined list that is sorted[25d(B[0;1m[35m-  [39m(B[mRead about more about Expansion[28d(B[0;1m[33m## check page 81 to 90 of the linux command book for important keyboard shortcuts[2d[39m(B[m[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[29d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H(B[0;1m[33m## Table 8-3: Cut and Paste Commands[39m(B[m[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;2HKeyAction[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1HCtrl-k Kill text from the cursor location to the end of line.[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1HCtrl-u Kill text from the cursor location to the beginning of the line.[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1HAlt-d Kill text from the cursor location to the end of the current word.[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1HAlt-Backspace Kill text from the cursor location to the beginning of the current[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1Hword. If the cursor is at the beginning of a word, kill the previous[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1Hword.[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1HCtrl-y Yank text from the kill-ring and insert it at the cursor location.[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;69H(B[0;7m*[121G(B[m[2;29r[29;1H
+[1;31r[28;1H[?12l[?25h[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l[?12l[?25he[?25l[?12l[?25hx[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h [?25lhttp://en.wikipedia.org/wiki/Computer_terminal[?12l[?25h[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hL[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hw[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hu[?25l[?12l[?25h [?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25hy[?25l[?12l[?25hs[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hm[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25hg[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hh[?25l[28d[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25hL[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hu[?25l[?12l[?25hx[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hw[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hf[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25hu[?25l[?12l[?25h[1P[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[27;49H[?25l[?12l[?25h.[?25l[?12l[?25h [?25l[?12l[?25hT[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25hm[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25ha[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25h\[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h,[?25l[?12l[?25h [?25l[?12l[?25hp[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[28d[?12l[?25h[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h,[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25h.[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l7[2;29r8[29d[5S[1;31r[23;1H●id – Display user identity[24d●chmod – Change a file's mode[25d●umask – Set the default file permissions[26d●su – Run a shell as another user[27d●sudo – Execute a command as another user[28d●chown – Change a file's owner[?12l[?25h[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l7[2;29r8[29d
+[1;31r[28;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[20d[?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25ht[?25l[?12l[?25hr[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25hm[?25l[?12l[?25hu[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25hu[?25l[?12l[?25hs[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25h [?25l[?12l[?25ha[?25l[?12l[?25hc[?25l[?12l[?25hc[?25l[?12l[?25he[?25l[?12l[?25hs[?25l[?12l[?25hs[?25l[?12l[?25h.[?25l7[21;29r8[21dM[1;31r[21;1H[?12l[?25h[?25l[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h7[2;29r8[29d
+[1;31r[28;1H[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l●chgrp – Change a file's group ownership[27d●passwd – Change a user's password[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[24;29r[29;1H
+[1;31r[24;1H[?12l[?25h[?25l[24;29r[29;1H
+[1;31r[23;31H[?12l[?25h[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[29d(B[0;7mSave modified buffer?                                                                                                     [30;1H Y(B[m Yes[K[31d(B[0;7m N(B[m No  [31;16H (B[0;7m^C(B[m Cancel[K[29;23H[?12l[?25h[?25l[30d(B[0;7m^G(B[m Help[30;31H(B[0;7mM-D(B[m DOS Format[30;61H(B[0;7mM-A(B[m Append[30;91H(B[0;7mM-B(B[m Backup File[31d(B[0;7m^C(B[m Cancel[17G[14X[31;31H(B[0;7mM-M(B[m Mac Format[31;61H(B[0;7mM-P(B[m Prepend[31;91H(B[0;7m^T(B[m Browse[29d(B[0;7mFile Name to Write: notes.md(B[m[?12l[?25h[?25l[29;54H[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [121G(B[m[29;53H(B[0;7m[ Wrote 59 lines ](B[m[J[31d[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ git [K[K[K[K[7mecho "# linux-command-playground" >> README.md[27m
+[7mgit init[27m
+[7mgit add README.md[27m
+[7mgit commit -m "first commit"[27m
+[7mgit branch -M main[27m
+[7mgit remote add origin https://github.com/Thebuilderekes/linux-command-playground.git[27m
+[7mgit push -u origin main[27m[A[A[A[A[A[A]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ echo "# linux-command-playground" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Thebuilderekes/linux-command-playground.git
+git push -u origin main
+[?2004lInitialized empty Git repository in /home/ekeopre/web-projects/linux-command-playground/.git/
+[main (root-commit) 42ce60a] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Username for 'https://github.com': ekestheprog           thebuilderekes919191      
+Password for 'https://thebuilderekes@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Thebuilderekes/linux-command-playground.git/'
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ls
+[?2004lapple.txt   electronic.txt  global.txt  lastname.txt  n.txt       q.txt        s.txt  w.txt
+baller.txt  firstname.txt   holdup.txt  m.txt         o.txt       README.md    t.txt  x.txt
+crypto.txt  [0m[01;36mfold[0m            info.txt    [01;34mnewfolder[0m     [01;32mprogram.sh[0m  r.txt        u.txt  y.txt
+dollar.txt  fullname.txt    j.txt       notes.md      p.txt       session.txt  v.txt  z.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ la
+[?2004lapple.txt   electronic.txt  [0m[01;34m.git[0m        j.txt         notes.md    p.txt      session.txt  v.txt  z.txt
+baller.txt  firstname.txt   global.txt  lastname.txt  n.txt       q.txt      s.txt        w.txt
+crypto.txt  [01;36mfold[0m            holdup.txt  m.txt         o.txt       README.md  t.txt        x.txt
+dollar.txt  fullname.txt    info.txt    [01;34mnewfolder[0m     [01;32mprogram.sh[0m  r.txt      u.txt        y.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [7mecho "# linux-command-playground" >> README.md[27m
+[7mgit init[27m
+[7mgit add README.md[27m
+[7mgit commit -m "first commit"[27m
+[7mgit branch -M main[27m
+[7mgit remote add origin git@github.com:Thebuilderekes/linux-command-playground.git[27m
+[7mgit push -u origin main[27m[A[A[A[A[A[A]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ echo "# linux-command-playground" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Thebuilderekes/linux-command-playground.git
+git push -u origin main
+[?2004lReinitialized existing Git repository in /home/ekeopre/web-projects/linux-command-playground/.git/
+[main dc2bc95] first commit
+ 1 file changed, 1 insertion(+)
+error: remote origin already exists.
+Username for 'https://github.com': thebuilderekes
+Password for 'https://thebuilderekes@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Thebuilderekes/linux-command-playground.git/'
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ git clone 
+[?2004lfatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --reject-shallow      don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ git clone [7mgit@github.com:Thebuilderekes/linux-command-playgrou[27m[7mn[27m[7md.git[27m[A]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [C[C[C[C[C[C[C[C[C[Cgit@github.com:Thebuilderekes/linux-command-playground.git
+[?2004lCloning into 'linux-command-playground'...
+Enter passphrase for key '/home/ekeopre/.ssh/id_ed25519': 
+warning: You appear to have cloned an empty repository.
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;
