@@ -57,3 +57,44 @@ control this multi user access.
 ●chgrp – Change a file's group ownership
 ●passwd – Change a user's password
 
+-*important* use `id` command to know your id
+
+## file mode in binary and octal
+
+0    000       ---
+1    001       --x
+2    010       -w-
+3    011       -wx
+4    100       r--
+5    101       r-x
+6    110       rw-
+7    111       rwx
+
+Notation          Meaning
+u+x              Add execute permission for the owner.
+
+u-x              Remove execute permission from the owner.
+
++x               Add execute permission for the owner, group, and world. This is
+                 equivalent to a+x.
+
+o-rw             Remove the read and write permissions from anyone besides the
+                 owner and group owner.
+
+go=rw            Set the group owner and anyone besides the owner to have read and 
+                 write permission. If either the group owner or the world previously
+                 had execute permission, it is removed.
+
+u+x,go=rx        Add execute permission for the owner and set the permissions for 
+                 the group and others to read and 
+
+
+find out about ``umask``
+
+
+``chown`` command to changer file ownership
+``chgrp`` command to change group ownership
+
+
+
+

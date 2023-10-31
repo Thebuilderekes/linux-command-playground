@@ -177,4 +177,372 @@ usage: git clone [<options>] [--] <repo> [<dir>]
 [?2004lCloning into 'linux-command-playground'...
 Enter passphrase for key '/home/ekeopre/.ssh/id_ed25519': 
 warning: You appear to have cloned an empty repository.
-[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ls
+[?2004lapple.txt   electronic.txt  global.txt  lastname.txt              notes.md    p.txt      session.txt  v.txt  z.txt
+baller.txt  firstname.txt   holdup.txt  [0m[01;34mlinux-command-playground[0m  n.txt       q.txt      s.txt        w.txt
+crypto.txt  [01;36mfold[0m            info.txt    m.txt                     o.txt       README.md  t.txt        x.txt
+dollar.txt  fullname.txt    j.txt       [01;34mnewfolder[0m                 [01;32mprogram.sh[0m  r.txt      u.txt        y.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ mv *.txt linux-command-playground/
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ls
+[?2004l[0m[01;36mfold[0m  [01;34mlinux-command-playground[0m  [01;34mnewfolder[0m  notes.md  [01;32mprogram.sh[0m  README.md
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ mv notes.md linux-command-playground/
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ cd linux-command-playground/
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ ls
+[?2004lapple.txt   dollar.txt      fullname.txt  info.txt      m.txt     o.txt  r.txt        t.txt  w.txt  z.txt
+baller.txt  electronic.txt  global.txt    j.txt         notes.md  p.txt  session.txt  u.txt  x.txt
+crypto.txt  firstname.txt   holdup.txt    lastname.txt  n.txt     q.txt  s.txt        v.txt  y.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ git statys[K[Kus
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mapple.txt[m
+	[31mballer.txt[m
+	[31mcrypto.txt[m
+	[31mdollar.txt[m
+	[31melectronic.txt[m
+	[31mfirstname.txt[m
+	[31mfullname.txt[m
+	[31mglobal.txt[m
+	[31mholdup.txt[m
+	[31minfo.txt[m
+	[31mj.txt[m
+	[31mlastname.txt[m
+	[31mm.txt[m
+	[31mn.txt[m
+	[31mnotes.md[m
+	[31mo.txt[m
+	[31mp.txt[m
+	[31mq.txt[m
+	[31mr.txt[m
+	[31ms.txt[m
+	[31msession.txt[m
+	[31mt.txt[m
+	[31mu.txt[m
+	[31mv.txt[m
+	[31mw.txt[m
+	[31mx.txt[m
+	[31my.txt[m
+	[31mz.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ gia[Kt add .
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ git =[Kcommit -m"pal[K[Klayin[Kng around withj [K[K the [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kter minal commands"
+[?2004l[main (root-commit) bda1ecd] playing around with terminal commands
+ 28 files changed, 262 insertions(+)
+ create mode 100644 apple.txt
+ create mode 100644 baller.txt
+ create mode 100644 crypto.txt
+ create mode 100644 dollar.txt
+ create mode 100644 electronic.txt
+ create mode 100644 firstname.txt
+ create mode 100644 fullname.txt
+ create mode 100644 global.txt
+ create mode 100644 holdup.txt
+ create mode 100644 info.txt
+ create mode 100644 j.txt
+ create mode 100644 lastname.txt
+ create mode 100644 m.txt
+ create mode 100644 n.txt
+ create mode 100644 notes.md
+ create mode 100644 o.txt
+ create mode 100644 p.txt
+ create mode 100644 q.txt
+ create mode 100644 r.txt
+ create mode 100644 s.txt
+ create mode 100644 session.txt
+ create mode 100644 t.txt
+ create mode 100644 u.txt
+ create mode 100644 v.txt
+ create mode 100644 w.txt
+ create mode 100644 x.txt
+ create mode 100644 y.txt
+ create mode 100644 z.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ git push
+[?2004lEnter passphrase for key '/home/ekeopre/.ssh/id_ed25519': 
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:   9% (1/11)Writing objects:  18% (2/11)Writing objects:  27% (3/11)Writing objects:  36% (4/11)Writing objects:  45% (5/11)Writing objects:  54% (6/11)Writing objects:  63% (7/11)Writing objects:  72% (8/11)Writing objects:  90% (10/11)Writing objects: 100% (11/11)Writing objects: 100% (11/11), 5.56 KiB | 1.11 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), done.[K
+To github.com:Thebuilderekes/linux-command-playground.git
+ * [new branch]      main -> main
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ [K]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ [H[2J]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ id
+[?2004luid=1000(ekeopre) gid=1000(ekeopre) groups=1000(ekeopre),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),115(lpadmin),137(sambashare),1002(fuse)
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ ls
+[?2004lapple.txt   dollar.txt      fullname.txt  info.txt      m.txt     o.txt  r.txt        t.txt  w.txt  z.txt
+baller.txt  electronic.txt  global.txt    j.txt         notes.md  p.txt  session.txt  u.txt  x.txt
+crypto.txt  firstname.txt   holdup.txt    lastname.txt  n.txt     q.txt  s.txt        v.txt  y.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ cd ..
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ls
+[?2004l[0m[01;36mfold[0m  [01;34mlinux-command-playground[0m  [01;34mnewfolder[0m  [01;32mprogram.sh[0m  README.md
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ mv program.sh linux-command-playground/
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ls
+[?2004l[0m[01;36mfold[0m  [01;34mlinux-command-playground[0m  [01;34mnewfolder[0m  README.md
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ ll
+[?2004ltotal 24
+drwxrwxr-x  5 ekeopre ekeopre 4096 Oct 31 15:14 [0m[01;34m.[0m/
+drwxrwxr-x 60 ekeopre ekeopre 4096 Oct 29 22:39 [01;34m..[0m/
+lrwxrwxrwx  1 ekeopre ekeopre   10 Oct 27 22:14 [01;36mfold[0m -> [01;34mnewfolder/[0m/
+drwxrwxr-x  8 ekeopre ekeopre 4096 Oct 31 13:58 [01;34m.git[0m/
+drwxrwxr-x  3 ekeopre ekeopre 4096 Oct 31 15:14 [01;34mlinux-command-playground[0m/
+drwxrwxr-x  2 ekeopre ekeopre 4096 Oct 28 17:01 [01;34mnewfolder[0m/
+-rw-rw-r--  1 ekeopre ekeopre   54 Oct 31 13:58 README.md
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ CD -[K[K[K[KGIT[K[K[Kgit sata[K[K[Ktatys
+[?2004lgit: 'statys' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ thefuck
+[?2004lusage: thefuck [-v] [-a [ALIAS]] [-l SHELL_LOGGER] [--enable-experimental-instant-mode] [-h] [-y | -r] [-d]
+               [command ...]
+[0m[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ thefuck[K[K[K[K fuck
+[?2004lCommand 'the' not found, but can be installed with:
+sudo apt install the
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ fuck
+[?2004l​​​​​​​​​​[1K[1mgit status[0m [[32menter[0m/[34m↑[0m/[34m↓[0m/[31mctrl+c[0m]
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfold[m
+	[31mlinux-command-playground/[m
+	[31mnewfolder/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ git remote -[K[K[K[K[K[K[K[K[K[K[K[Kcd linux-command-playground/
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ ls
+[?2004lapple.txt   dollar.txt      fullname.txt  info.txt      m.txt     o.txt       q.txt        s.txt  v.txt  y.txt
+baller.txt  electronic.txt  global.txt    j.txt         notes.md  [0m[01;32mprogram.sh[0m  r.txt        t.txt  w.txt  z.txt
+crypto.txt  firstname.txt   holdup.txt    lastname.txt  n.txt     p.txt       session.txt  u.txt  x.txt
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   notes.md[m
+	[31mmodified:   session.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.notes.md.swp[m
+	[31mprogram.sh[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ git statusls[Kgit status[K[K[K[K[K[Krmote -v[Kgit rmote -v[1@e
+[?2004lorigin	git@github.com:Thebuilderekes/linux-command-playground.git (fetch)
+origin	git@github.com:Thebuilderekes/linux-command-playground.git (push)
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ cd ..
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ cd ..git remote -v[3Pstatusremote -v
+[?2004lorigin	https://github.com/Thebuilderekes/linux-command-playground.git (fetch)
+origin	https://github.com/Thebuilderekes/linux-command-playground.git (push)
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ system[K[K[K[K[K[K(reverse-i-search)`': [Ks': git statu[7ms[27my': [7msy[27mstemctl suspend[1@s': [7msys[27m]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ systemctl suspend
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [K]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [K]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [K]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [K]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [K]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ [H[2J]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ tldr chmod
+[?2004l
+  [1m[4mchmod[24m[22m
+
+  [1mChange the access permissions of a file or directory.[22m
+[1m  More information: https://www.gnu.org/software/coreutils/chmod.[22m
+
+  - Give the [u]ser who owns a file the right to e[x]ecute it:
+    chmod u+x [4mpath/to/file[24m
+
+  - Give the [u]ser rights to [r]ead and [w]rite to a file/directory:
+    chmod u+rw [4mpath/to/file_or_directory[24m
+
+  - Remove e[x]ecutable rights from the [g]roup:
+    chmod g-x [4mpath/to/file[24m
+
+  - Give [a]ll users rights to [r]ead and e[x]ecute:
+    chmod a+rx [4mpath/to/file[24m
+
+  - Give [o]thers (not in the file owner's group) the same rights as the [g]roup:
+    chmod o=g [4mpath/to/file[24m
+
+  - Remove all rights from [o]thers:
+    chmod o= [4mpath/to/file[24m
+
+  - Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
+    chmod -R g+w,o+w [4mpath/to/directory[24m
+
+  - Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
+    chmod -R a+rX [4mpath/to/directory[24m
+
+
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ .
+[?2004lbash: .: filename argument required
+.: usage: . filename [arguments]
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground[00m$ .tldr chmodsystemctl suspend[4Pgit remote -v[8Pcd ..git remote -vsystemctl suspend[7Ptldr chmod[K[K[K[K[K[K[K[K[K[Kcat na[Kewfolder/[K[K[K[K[K[K[K[K[K[Kfi[Kold[K[K[K[Ke[K[K[K[K[Kcd linux-command-playground/
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ cat holdup.txt 
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ .
+[?2004lbash: .: filename argument required
+.: usage: . filename [arguments]
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ SU VISITOR[K[K[K[K[K[K[K[K[K[Ksu visitor
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ su visitor
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;ekeopre@ekeopre-HP: ~/web-projects/linux-command-playground/linux-command-playground[01;32mekeopre@ekeopre-HP[00m:[01;34m~/web-projects/linux-command-playground/linux-command-playground[00m$ su visitor
+[?2004lPassword: 
+[?2004h]0;visitor@ekeopre-HP: /home/ekeopre/web-projects/linux-command-playground/linux-command-playground[01;32mvisitor@ekeopre-HP[00m:[01;34m/home/ekeopre/web-projects/linux-command-playground/linux-command-playground[00m$ cd /
+[?2004l[?2004h]0;visitor@ekeopre-HP: /[01;32mvisitor@ekeopre-HP[00m:[01;34m/[00m$ 
+[?2004l[?2004h]0;visitor@ekeopre-HP: /[01;32mvisitor@ekeopre-HP[00m:[01;34m/[00m$ ls
+[?2004l[0m[01;36mbin[0m   [01;34mcdrom[0m  [01;34metc[0m   [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m       [01;34msys[0m        [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34mdev[0m    [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  swapfile  [01;34mtimeshift[0m  [01;34musr[0m
+[?2004h]0;visitor@ekeopre-HP: /[01;32mvisitor@ekeopre-HP[00m:[01;34m/[00m$ cd hom[K[K[K[K[K[Kekoer[K[K[K[Ke[Kkeopre
+[?2004lekeopre: command not found
+[?2004h]0;visitor@ekeopre-HP: /[01;32mvisitor@ekeopre-HP[00m:[01;34m/[00m$ cd home
+[?2004l[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mekeopre[0m  [01;34mvisitor[0m
+[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ cd visitor/
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~[01;32mvisitor@ekeopre-HP[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+[?2004h]0;visitor@ekeopre-HP: ~[01;32mvisitor@ekeopre-HP[00m:[01;34m~[00m$ cd Documents/
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ ls
+[?2004l[0m[01;34m'DIVE DEEP INTO BROWSER'[0m
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ xd DIVE\ DEEP\ INTO\ BROWSER/
+[?2004lCommand 'xd' not found, but can be installed with:
+apt install xd
+Please ask your administrator.
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ file DIVE\ DEEP\ INTO\ BROWSER/
+[?2004lDIVE DEEP INTO BROWSER/: directory
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ file DIVE\ DEEP\ INTO\ BROWSER/[1P[1P[1P[1P[1P[1@c[1@d[1@ 
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~/Documents/DIVE DEEP INTO BROWSER[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents/DIVE DEEP INTO BROWSER[00m$ ls
+[?2004l[0m[01;35m'Using the Firefox Profiler for web performance analysis.mp4'[0m
+[?2004h]0;visitor@ekeopre-HP: ~/Documents/DIVE DEEP INTO BROWSER[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents/DIVE DEEP INTO BROWSER[00m$ cd ..
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ ls
+[?2004l[0m[01;34m'DIVE DEEP INTO BROWSER'[0m
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ cd ..
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~[01;32mvisitor@ekeopre-HP[00m:[01;34m~[00m$ csd[K[Kd ..[3Plscd ..[3Plscd DIVE\ DEEP\ INTO\ BROWSER/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@file[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pcd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd DIVE\ DEEP\ INTO\ BROWSER/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@file[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pxd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd Documents/
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ cd Documents/..[K[3Plscd ..[3Plscd DIVE\ DEEP\ INTO\ BROWSER/[2@file[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lDIVE DEEP INTO BROWSER/: directory
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ ls
+[?2004l[0m[01;34m'DIVE DEEP INTO BROWSER'[0m
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ mv[K[Kcp DIVE\ DEEP\ INTO\ BROWSER/ ../../ekeopre/doc[K[K[KDowe[K[K[K[KDocuments
+[?2004lcp: failed to access '../../ekeopre/Documents': Permission denied
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ cp DIVE\ DEEP\ INTO\ BROWSER/ ../../ekeopre/Documents[1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[sudo] password for visitor: *********         
+Sorry, user visitor is not allowed to execute '/usr/bin/cp DIVE DEEP INTO BROWSER/ ../../ekeopre/Documents' as root on ekeopre-HP.
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ sudo cp DIVE\ DEEP\ INTO\ BROWSER/ ../../ekeopre/Documents[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[K[Kcd ../../
+[?2004l[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mekeopre[0m  [01;34mvisitor[0m
+[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ cd[K[Kls
+[?2004l[0m[01;34mekeopre[0m  [01;34mvisitor[0m
+[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ cd visitor/
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~[01;32mvisitor@ekeopre-HP[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+[?2004h]0;visitor@ekeopre-HP: ~[01;32mvisitor@ekeopre-HP[00m:[01;34m~[00m$ cd Documents/
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ cd Documents/ls[Kcd visitor/ls[Kcd ../../sudo cp DIVE\ DEEP\ INTO\ BROWSER/ ../../ekeopre/Documents
+[?2004l[sudo] password for visitor: *********         
+Sorry, user visitor is not allowed to execute '/usr/bin/cp DIVE DEEP INTO BROWSER/ ../../ekeopre/Documents' as root on ekeopre-HP.
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ sudo cp DIVE\ DEEP\ INTO\ BROWSER/ ../../ekeopre/Documents[1P/ekeopre/Documents[1P/ekeopre/Documents[1Pekeopre/Documents[1P/ekeopre/Documents[1P/ekeopre/Documents[C/ekeopre/Documentsh/ekeopre/Documentso/ekeopre/Documentsm/ekeopre/Documentse/ekeopre/Documents[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[sudo] password for visitor: *********         
+Sorry, user visitor is not allowed to execute '/usr/bin/cp DIVE DEEP INTO BROWSER/ /home/ekeopre/Documents' as root on ekeopre-HP.
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ cd /home
+[?2004l[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mekeopre[0m  [01;34mvisitor[0m
+[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ cd ekeoipre[K[K[K[Kpre
+[?2004lbash: cd: ekeopre: Permission denied
+[?2004h]0;visitor@ekeopre-HP: /home[01;32mvisitor@ekeopre-HP[00m:[01;34m/home[00m$ ekeopre[K[K[K[K[K[K[Kekeoprels[K..[K[K[K[Kekeopre.\[K[K[K[K[K[K[K[K[Kekeoprels[K/home/ekeopre/Documents../../ekeopre/Documents[13PDocuments/ls[K[K[Kekeoprels[K/home/ekeopre/Documents../../ekeopre/Documents[13PDocuments/[K[K[K[K[K[K[K[K[K[Kcd visitor/
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~[01;32mvisitor@ekeopre-HP[00m:[01;34m~[00m$ cd Documents/
+[?2004l[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ cd Documents/[2Pvisitor/[1Pekeoprels[Kcd /homesudo cp DIVE\ DEEP\ INTO\ BROWSER/ /home/ekeopre/Documents[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C../../ekeopre/Documents[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@m[1@v
+[?2004l[sudo] password for visitor: *********         ***********           
+Sorry, try again.
+[sudo] password for visitor: *********         
+Sorry, user visitor is not allowed to execute '/usr/bin/mv DIVE DEEP INTO BROWSER/ ../../ekeopre/Documents' as root on ekeopre-HP.
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ sudo mv DIVE\ DEEP\ INTO\ BROWSER/ ../../ekeopre/Documents[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd Documents/[K[2Pvisitor/[1Pekeoprels[Kcd /homesudo cp DIVE\ DEEP\ INTO\ BROWSER/ /home/ekeopre/Documents../../ekeopre/Documents/home/ekeopre/Documents../../ekeopre/Documents[1@s
+[?2004l[sudo] password for visitor: *********         
+Sorry, user visitor is not allowed to execute '/usr/bin/scp DIVE DEEP INTO BROWSER/ ../../ekeopre/Documents' as root on ekeopre-HP.
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ cd [K[K[Ksu ekeorpe[K[K[K[Kopre
+[?2004lPassword: 
+Command 'thefuck' not found, but can be installed with:
+sudo apt install thefuck
+[?2004h]0;ekeopre@ekeopre-HP: /home/visitor/Documents[01;32mekeopre@ekeopre-HP[00m:[01;34m/home/visitor/Documents[00m$ su visitor
+[?2004lPassword: 
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ su - ekeoprevlc[K DIVE\ DEEP\ INTO\ BROWSER/Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [A]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..vlc Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[KLScd DIVE\ DEEP\ INTO\ BROWSER/ls[Kcd Documents/..[K[3Plscd Downloads/ls[Ksu - ekeoprels[Kcd Downloads/ls[Kcd ..Documents/ls[Kcd DIVE\ DEEP\ INTO\ BROWSER/LS[Klsvlc Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[3Plsvlc DIVE\ DEEP\ INTO\ BROWSER/Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [A]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ [C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - ekeopre[Ksu - ekeoprevlc[K DIVE\ DEEP\ INTO\ BROWSER/Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [A]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ [C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - ekeopre[Ksu - ekeoprevlc[K DIVE\ DEEP\ INTO\ BROWSER/Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [A]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..vlc Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[KLScd DIVE\ DEEP\ INTO\ BROWSER/ls[Kcd Documents/..[K[3Plscd Downloads/ls[Ksu - ekeopreapt-get install x11-server-utils[1P-server-utils[10Psystemctl status xset[11Pxset led 3su - ekeopre-ekeopre ekeopre[6Pwhoami[1Pclear[2Ptopxset led 3[1P[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[Khistory
+[?2004l    1  su -ekeopre
+    2  su --help
+    3  su --ekeopre
+    4  su -ekeopre-HP
+    5  ls
+    6  su ekeopre
+    7  xset led 3
+    8  xet led 3
+    9  xset led 3
+   10  top
+   11  clear
+   12  whoami
+   13  su - ekeopre
+   14  su --ekeopre
+   15  su - ekeopre
+   16  xset led 3
+   17  systemctl status xset
+   18  apt-get install x1-server-utils
+   19  apt-get install x11-server-utils
+   20  su - ekeopre
+   21  ls
+   22  cd Downloads/
+   23  ls
+   24  cd ..
+   25  cd Documents/
+   26  ls
+   27  cd DIVE\ DEEP\ INTO\ BROWSER/
+   28  LS
+   29  ls
+   30  vlc Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 
+   31  cd ..
+   32  ls
+   33  vlc DIVE\ DEEP\ INTO\ BROWSER/Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 
+   34  vlc
+   35  su - ekeopre
+   36  history
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ sdu[K[K[Ksudo scp DIVE\ DEEP\ INTO\ BROWSER/ ekeore[K[Kpre@ekeopre-HP
+[?2004l[sudo] password for visitor: *********         
+Sorry, user visitor is not allowed to execute '/usr/bin/scp DIVE DEEP INTO BROWSER/ ekeopre@ekeopre-HP' as root on ekeopre-HP.
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ whoami
+[?2004lvisitor
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ pwd
+[?2004l/home/visitor/Documents
+[?2004h]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ pwdwhoamisudo scp DIVE\ DEEP\ INTO\ BROWSER/ ekeopre@ekeopre-HP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory[Ksu - ekeoprevlc[K DIVE\ DEEP\ INTO\ BROWSER/Using\ the\ Firefox\ Profiler\ for\ web\ performance\ analysis.mp4 [A]0;visitor@ekeopre-HP: ~/Documents[01;32mvisitor@ekeopre-HP[00m:[01;34m~/Documents[00m$ [C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - ekeopre
+[?2004lPassword: 
+Command 'thefuck' not found, but can be installed with:
+sudo apt install thefuck
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ su -
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ su -
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ sudo -l
+[?2004lMatching Defaults entries for ekeopre on ekeopre-HP:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin,
+    use_pty, pwfeedback
+
+User ekeopre may run the following commands on ekeopre-HP:
+    (ALL : ALL) ALL
+    (root) NOPASSWD: /usr/bin/mintdrivers-remove-live-media
+    (root) NOPASSWD: /usr/bin/mint-refresh-cache
+    (root) NOPASSWD: /usr/lib/linuxmint/mintUpdate/synaptic-workaround.py
+    (root) NOPASSWD: /usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ apropos root
+[?2004lbtrfs-find-root (8)  - filter to find btrfs root
+cbrt (3)             - cube root function
+cbrtf (3)            - cube root function
+cbrtl (3)            - cube root function
+chroot (2)           - change root directory
+chroot (8)           - run command or interactive shell with special root directory
+csqrt (3)            - complex square root
+csqrtf (3)           - complex square root
+csqrtl 
