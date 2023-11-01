@@ -545,4 +545,114 @@ chroot (2)           - change root directory
 chroot (8)           - run command or interactive shell with special root directory
 csqrt (3)            - complex square root
 csqrtf (3)           - complex square root
-csqrtl 
+csqrtl (3)           - complex square root
+dpkg-realpath (1)    - print the resolved pathname with DPKG_ROOT support
+faked (1)            - daemon that remembers fake ownership/permissions of files manipulated by fakeroot processes.
+faked-sysv (1)       - daemon that remembers fake ownership/permissions of files manipulated by fakeroot processes.
+faked-tcp (1)        - daemon that remembers fake ownership/permissions of files manipulated by fakeroot processes.
+fakeroot (1)         - run a command in an environment faking root privileges for file manipulation
+fakeroot-sysv (1)    - run a command in an environment faking root privileges for file manipulation
+fakeroot-tcp (1)     - run a command in an environment faking root privileges for file manipulation
+grub-mkrelpath (1)   - make a system path relative to its root
+ischroot (1)         - detect if running in a chroot
+pam_nologin (8)      - Prevent non-root users from login
+pam_rootok (8)       - Gain only root access
+pam_securetty (8)    - Limit root login to special devices
+pam_wheel (8)        - Only permit root access to members of group wheel
+pivot_root (2)       - change the root mount
+pivot_root (8)       - change the root filesystem
+projects (5)         - persistent project root definition
+securetty (5)        - list of terminals on which root is allowed to login
+selinux_policy_root (3) - return the path of the SELinux policy files for this machine selinux_set_policy_root - Set an...
+selinux_restorecon_set_alt_rootpath (3) - set an alternate rootpath.
+selinux_set_policy_root (3) - return the path of the SELinux policy files for this machine selinux_set_policy_root - Se...
+setup (2)            - setup devices and filesystems, mount root filesystem
+sqrt (3)             - square root function
+sqrtf (3)            - square root function
+sqrtl (3)            - square root function
+sudo_root (8)        - How to run administrative commands
+switch_root (8)      - switch to another filesystem as the root of the mount tree
+systemd-fsck-root.service (8) - File system checker logic
+systemd-gpt-auto-generator (8) - Generator for automatically discovering and mounting root, /home/, /srv/, /var/ and /v...
+systemd-remount-fs (8) - Remount root and kernel file systems
+systemd-remount-fs.service (8) - Remount root and kernel file systems
+systemd-volatile-root (8) - Make the root file system volatile
+systemd-volatile-root.service (8) - Make the root file system volatile
+XRRRootToScreen (3)  - X Resize, Rotate and Reflection extension.
+xsetroot (1)         - root window parameter setting utility for X
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ sudo_roor[Kt
+[?2004lsudo_root: command not found
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ id
+[?2004luid=1000(ekeopre) gid=1000(ekeopre) groups=1000(ekeopre),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),115(lpadmin),137(sambashare),1002(fuse)
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ id[K[Kgetent passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+rtkit:x:107:113:RealtimeKit,,,:/proc:/usr/sbin/nologin
+systemd-coredump:x:108:114:systemd Core Dumper,,,:/run/systemd:/usr/sbin/nologin
+ntp:x:109:119::/nonexistent:/usr/sbin/nologin
+kernoops:x:110:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+uuidd:x:111:120::/run/uuidd:/usr/sbin/nologin
+cups-pk-helper:x:112:115:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+lightdm:x:113:121:Light Display Manager:/var/lib/lightdm:/bin/false
+tcpdump:x:114:123::/nonexistent:/usr/sbin/nologin
+speech-dispatcher:x:115:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+avahi-autoipd:x:116:126:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:117:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+nm-openvpn:x:118:127:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+geoclue:x:119:128::/var/lib/geoclue:/usr/sbin/nologin
+dnsmasq:x:120:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+pulse:x:121:129:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+_flatpak:x:122:132:Flatpak system-wide installation helper,,,:/nonexistent:/usr/sbin/nologin
+avahi:x:123:133:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+saned:x:124:134::/var/lib/saned:/usr/sbin/nologin
+colord:x:125:135:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+fwupd-refresh:x:126:136:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+hplip:x:127:7:HPLIP system user,,,:/run/hplip:/bin/false
+ekeopre:x:1000:1000:Ekeopre,,,:/home/ekeopre:/bin/bash
+sssd:x:128:138:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+visitor:x:1001:1001:visitor,,,,:/home/visitor:/bin/bash
+dictd:x:129:139:Dictd Server,,,:/var/lib/dictd:/usr/sbin/nologin
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ scp ../visito[Kit[K[Kit[K[Kor/Documens[Kts visitor@ekeopre.[K-HP:.
+[?2004lssh: connect to host ekeopre-hp port 22: Connection refused
+lost connection
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ scp ../visitor/Documents visitor@ekeopre-HP:.
+[?2004lssh: connect to host ekeopre-hp port 22: Connection refused
+lost connection
+[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ scp ../visitor/Documents visitor@ekeopre-HP:.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgetent passwd[K[Kls[K[Kcd ..
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: /home[01;32mekeopre@ekeopre-HP[00m:[01;34m/home[00m$ ls
+[?2004l[0m[01;34mekeopre[0m  [01;34mvisitor[0m
+[?2004h]0;ekeopre@ekeopre-HP: /home[01;32mekeopre@ekeopre-HP[00m:[01;34m/home[00m$ cd visitor/
+[?2004l-bash: cd: visitor/: Permission denied
+[?2004h]0;ekeopre@ekeopre-HP: /home[01;32mekeopre@ekeopre-HP[00m:[01;34m/home[00m$ cd visitor/[1@s[1@u[1@d[1@o[1@ 
+[?2004l[sudo] password for ekeopre: ***********           
+sudo: cd: command not found
+sudo: "cd" is a shell built-in command, it cannot be run directly.
+sudo: the -s option may be used to run a privileged shell.
+sudo: the -D option may be used to run a command in a specific directory.
+[?2004h]0;ekeopre@ekeopre-HP: /home[01;32mekeopre@ekeopre-HP[00m:[01;34m/home[00m$ cd doc[K[K[Kekeore[K[K[K[K[K[K[K[K[Kcd eke[K[K[K[K[K[Kcd /
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: /[01;32mekeopre@ekeopre-HP[00m:[01;34m/[00m$ ekeopre
+[?2004l[?2004h]0;ekeopre@ekeopre-HP: ~[01;32mekeopre@ekeopre-HP[00m:[01;34m~[00m$ ls
+[?2004l [0m[01;34mbatstat[0m          [01;34mDocuments[0m                  [01;34minst

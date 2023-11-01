@@ -61,14 +61,13 @@ control this multi user access.
 
 ## file mode in binary and octal
 
-0    000       ---
-1    001       --x
-2    010       -w-
-3    011       -wx
-4    100       r--
-5    101       r-x
-6    110       rw-
-7    111       rwx
+1    001       --x <br>
+2    010       -w- <br>
+3    011       -wx <br>
+4    100       r-- <br>
+5    101       r-x  <br>
+6    110       rw  <br>
+7    111       rwx <br>
 
 Notation          Meaning
 u+x              Add execute permission for the owner.
@@ -94,6 +93,31 @@ find out about ``umask``
 
 ``chown`` command to changer file ownership
 ``chgrp`` command to change group ownership
+
+## Processes
+- Shell scripts are located in the /etc folder.
+
+- Daemons are programs that run in the background
+
+*Processes in chapter  contains deeper concepts about processes that should be looked at*
+*later along the linux leaning journey *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
