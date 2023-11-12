@@ -1,10 +1,14 @@
-#!/bin/zsh
+#!/bin/bash
 
-function PrintName() {
-
-echo "Ekeopre is practicing functions in bash"
-
+# Function to print the name passed to it
+function print_name() {
+  echo "Hello, $1 $2!"
 }
 
-echo "calling printName function"
-PrintName
+
+# Get the names from the user
+echo "Enter two names: "
+read name1 name2
+
+# Print the names using the functions
+print_name $name1 $name2
