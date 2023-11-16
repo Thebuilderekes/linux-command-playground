@@ -1,0 +1,11 @@
+d;lvgksk;lkfsd;fl,mdnf;lsdmkfn;sdlkfn;sdn
+printEach(){
+jfpdooij
+for car in $MY_ARRAY; do 
+echo "this is from function printEach:$car"
+
+done
+
+}
+
+printEach
